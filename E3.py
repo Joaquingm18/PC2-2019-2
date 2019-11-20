@@ -25,10 +25,10 @@ while len(a)<5 and len(b)<5 and len(c)<5:
     else:
         print("Edad no en rango. ")    
         
-z=0
+s=0
 for i in c:
-    z=s+i
-z=z/5
+    s=s+i
+s=s/5
 print("Las personas inscritas son: ")
 print(a)
 print(b)
@@ -38,4 +38,4 @@ print("La cantidad de hombres son:"+ str(cant1))
 print("")
 print("La cantidad de mujeres son:"+ str(cant2))
 print("")
-print("La edad promedio de personas registradas son: "+ str(z))
+print("La edad promedio de personas registradas son: "+ str(s))
