@@ -17,3 +17,6 @@ print(b)
 c= contraletra("lapractica", "a")
 print(c)
 
+
+c= contraletra("lapractica", "a")
+print(c)
