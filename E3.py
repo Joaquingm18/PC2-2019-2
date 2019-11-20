@@ -6,7 +6,7 @@ b=[]
 c=[]
 cant1=0
 cant2=0
-while len(a)<3 and len(b)<3 and len(c)<3:
+while len(a)<5 and len(b)<5 and len(c)<5:
 
     nombre=input("Ingrese su nombre: ")
     a.append(nombre)
@@ -28,7 +28,7 @@ while len(a)<3 and len(b)<3 and len(c)<3:
 s=0
 for i in c:
     s=s+i
-
+s=s/5
 print("Las personas inscritas son: ")
 print(a)
 print(b)
